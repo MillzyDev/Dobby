@@ -19,7 +19,7 @@ void log_set_level(int level);
 void log_switch_to_syslog();
 void log_switch_to_file(const char *path);
 
-typedef enum {
+typedef enum _MemoryOperationError {
   kMemoryOperationSuccess,
   kMemoryOperationError,
   kNotSupportAllocateExecutableMemory,
