@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
-include(cmake/EarlyGlobals.cmake)
 
 project(Dobby)
+
+include(cmake/EarlyGlobals.cmake)
+
 enable_language(ASM)
 
 include(cmake/Util.cmake)
